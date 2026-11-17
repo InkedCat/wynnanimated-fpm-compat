@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "wynnanimated_fpm_compat",
+	"version": "${version}",
+	"name": "WynnAnimated FPM Compat",
+	"description": "Disables WynnAnimated first-person animations when First-person Model is enabled, so FPM renders the first-person view",
+	"authors": [
+		"InkedCat"
+	],
+	"contact": {
+		"sources": "https://github.com/InkedCat/wynnanimated-fpm-compat"
+	},
+	"license": "GPL-3.0-or-later",
+	"icon": "assets/wynnanimated_fpm_compat/icon.png",
+	"environment": "client",
+	"entrypoints": {},
+	"mixins": [
+		{
+			"config": "wynnanimated_fpm_compat.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.21.11",
+		"wynnanimated": "0.1.4+1.21.11",
+		"firstperson": "*"
+	}
+}

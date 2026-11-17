@@ -1,0 +1,1 @@
+# WynnAnimated FPM Compat
